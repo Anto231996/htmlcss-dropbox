@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <header class="clearfix">
@@ -57,9 +58,57 @@
         </section>
     </div>
     <main>
-        <section>
+        <section id="subscription">
             
+            <h2>Trova il piano Dropbox Business che fa per te</h2>
+
+            <div id="subscription-radio">
+                <span><input type="radio" id="month" name="fav_sub" value="">Fatturazione mensile</span>
+                <span><input type="radio" id="year" name="fav_sub" value="">Fatturazione annuale</span>         
+            </div>
+      
+            <div id="row-sub" class="clearfix">
+               
+                <div id="professional-row" class="float-left">
+                    <h6><i class="far fa-user"></i>Singolo</h6>                
+                </div>
+
+                <div id="standard-row" class="float-left">
+                    <h6>Team</h6>
+                </div>
+
+                <div id="advance-row" class="float-left">
+                    <h6>Team</h6>
+                </div>
+
+            </div>
+
+            <div id="col-sub" class="clearfix">
+                <div id="professional-col" class="float-left">
+                    <div class="content">
+                        <h4>Professional</h4>
+                        <span class="price">19,99$</span><br>
+                        <span class="timing">/mese</span><br>
+                        <span class="user">1 utente</span><br>
+                        <span class="storage">3 TB di spazio di archiviazione sicuro</span>
+                        <span class="description">Funzioni di produttivita' premium e condivisione file semplice e sicura</span>
+                        <span class="btn-free-trial bg-blue"><a href="#">Prova gratis per 30 giorni</a></span>
+                        <span>Oppure <a href="#" id="buy-now"> acquista ora</a></span>
+                        <hr>
+                    </div>       
+                </div>
+
+                <div id="standard-col" class="float-left">
+                    <h4>Standard</h4>
+                </div>
+
+                <div id="advance-col" class="float-left">
+                    <h4>Advance</h4>
+                </div>
+            </div>
+ 
         </section>
+
     </main>
 
 </body>

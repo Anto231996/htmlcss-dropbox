@@ -17,7 +17,12 @@ header{
     min-width: 1200px;
 }
 
-.clearfix:hover{
+main{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -92,7 +97,7 @@ section#jumbotron div.col-jumbotron div#btn-jumbo-blue{
 
 .bg-blue{
     background-color: #0061ff;
-    padding: 7px 14px;
+    padding: 10px 20px;
 }
 
 #img-jumbo{
@@ -100,3 +105,101 @@ section#jumbotron div.col-jumbotron div#btn-jumbo-blue{
     width: 64%;
 }
 
+section#subscription h2{
+    font-size: 40px;
+    padding-top: 150px;
+    margin-bottom: 50px;
+}
+
+section#subscription #subscription-radio{
+    margin-bottom: 30px;
+}
+
+section#subscription #subscription-radio input{
+    margin-right: 5px;
+}
+
+section#subscription #subscription-radio span{
+    margin-right: 20px;
+}
+
+#professional-row, #standard-row, #advance-row{
+    width: calc((100% / 3) - 34px);
+    height: 40px;
+    border-top:#e0e0e0 1px solid;
+    border-left:#e0e0e0 1px solid; 
+    border-right:#e0e0e0 1px solid;
+}
+
+section#subscription div#row-sub h6{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 36px;
+    color: #1a1a1a;
+}
+
+#col-sub .content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#standard-row, #standard-col{
+    margin: 0 51px;
+}
+
+#professional-col, #standard-col, #advance-col{
+    width: calc((100% / 3) - 34px);
+    height: 800px;
+    border: #e0e0e0 1px solid
+}
+
+section#subscription div#col-sub h4{
+    font-size: 30px;
+    padding-top: 25px;
+    margin-bottom: 13px;
+}
+
+section#subscription div#col-sub span{
+    display: inline-block;
+}
+
+section#subscription div#col-sub .price{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+section#subscription div#col-sub .timing{
+    color: #647482;
+    margin-bottom: 50px;
+}
+
+section#subscription div#col-sub .user,
+section#subscription div#col-sub .storage{
+    margin-bottom: 25px;
+}
+
+section#subscription div#col-sub .description{
+    margin-bottom: 45px;
+}
+
+section#subscription div#col-sub .btn-free-trial{
+    margin-bottom: 40px;
+}
+
+.btn-free-trial a{
+    padding:10px 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#buy-now{
+    color:#0061ff;
+}
+
+hr{
+    border-top: 1px solid #e0e0e0;
+    width: 65px;
+    margin: 30px 0;
+}
