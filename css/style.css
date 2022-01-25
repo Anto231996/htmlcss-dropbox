@@ -9,8 +9,10 @@ body{
 }
 
 header{
-    width: 100%;
-    height: 80px;
+    width: 95%;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 auto;
 }
 
 .clearfix:hover{
@@ -21,20 +23,15 @@ header{
 
 .logo{
     width: 35%;
-    height: 100%;
-    border: black 1px solid;
 }
 
 .spazio-nav{
     width: 30%;
-    height: 100%;
-    border: black 1px solid;
 }
 
 .nav-bar-right{
     width: 35%;
-    height: 100%;
-    border: black 1px solid;
+    text-align: end;
 }
 
 .float-left{
@@ -51,11 +48,16 @@ ul{
 
 li{
     display: inline;
+    margin-right: 30px;
+}
+
+li.btn-nav{
+    color: white;
 }
 
 #img-nav{
-    display: inline;
     vertical-align: text-bottom;
+    margin: 0 50px;
 }
 
 .wrapper{
@@ -72,16 +74,16 @@ section#jumbotron{
 section#jumbotron h1{
     font-size: 85px;
     padding-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 section#jumbotron .col-jumbotron{
-    width: 35%;
+    width: 36%;
     display: inline-block;
 }
 
 section#jumbotron p{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     display: inline-block;
 }
 
@@ -89,8 +91,22 @@ section#jumbotron p, section#jumbotron div .btn-free-trial{
     font-size: 22px;
 }
 
-div#img-jumbo{
-    width: 75%;
+section#jumbotron div .btn-free-trial{
+    text-decoration: none;
+    color: white;
 }
 
+section#jumbotron div.col-jumbotron div#btn-jumbo-blue{
+    margin-bottom: 30px;
+}
+
+.bg-blue{
+    background-color: #0061ff;
+    padding: 7px 14px;
+}
+
+#img-jumbo{
+    float: right;
+    width: 64%;
+}
 
