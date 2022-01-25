@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+}
+
+.clearfix:hover{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    width: 35%;
+    height: 100%;
+    border: black 1px solid;
+}
+
+.spazio-nav{
+    width: 30%;
+    height: 100%;
+    border: black 1px solid;
+}
+
+.nav-bar-right{
+    width: 35%;
+    height: 100%;
+    border: black 1px solid;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+ul{
+    display: inline;
+}
+
+li{
+    display: inline;
+}
+
+#img-nav{
+    display: inline;
+    vertical-align: text-bottom;
+}
+
+.wrapper{
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 800px;
+}
+
+section#jumbotron{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section#jumbotron h1{
+    font-size: 85px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+section#jumbotron .col-jumbotron{
+    width: 35%;
+    display: inline-block;
+}
+
+section#jumbotron p{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+section#jumbotron p, section#jumbotron div .btn-free-trial{
+    font-size: 22px;
+}
+
+div#img-jumbo{
+    width: 75%;
+}
+
+
