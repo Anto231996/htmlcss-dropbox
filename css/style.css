@@ -87,19 +87,9 @@ section#jumbotron p, section#jumbotron div .btn-free-trial{
     font-size: 22px;
 }
 
-section#jumbotron div .btn-free-trial{
-    text-decoration: none;
-    color: white;
-}
-
 section#jumbotron div.col-jumbotron div#btn-jumbo-blue,
 section#jumbotron div.col-jumbotron div#cancel{
     margin-bottom: 35px;
-}
-
-.bg-blue{
-    background-color: #0061ff;
-    padding: 10px 20px;
 }
 
 .fa-arrow-down{
@@ -113,7 +103,7 @@ section#jumbotron div.col-jumbotron div#cancel{
 
 section#subscription h2{
     font-size: 40px;
-    padding-top: 250px;
+    padding-top: 300px;
     margin-bottom: 50px;
 }
 
@@ -131,18 +121,21 @@ section#subscription #subscription-radio span{
 
 #professional-row, #standard-row, #advance-row{
     width: calc((100% / 3) - 34px);
+}
+
+#professional-row, #standard-row, #advance-row, #info-row{
     height: 40px;
     border-top:#e0e0e0 1px solid;
     border-left:#e0e0e0 1px solid; 
     border-right:#e0e0e0 1px solid;
 }
 
-section#subscription div#row-sub h6{
+section#subscription div#row-sub h6,
+section#subscription div#info-row h6{
     font-size: 15px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 36px;
-    color: #1a1a1a;
 }
 
 #col-sub .content-sub{
@@ -156,11 +149,20 @@ section#subscription div#row-sub h6{
 
 #professional-col, #standard-col, #advance-col{
     width: calc((100% / 3) - 34px);
-    height: 1000px;
-    border: #e0e0e0 1px solid
+    height: 1100px;
+    margin-bottom: 50px;
 }
 
-section#subscription div#col-sub h4{
+#professional-col, #standard-col, #advance-col, #info-col{
+    border: #e0e0e0 1px solid;
+}
+
+#info-col{
+    height: 300px;
+}
+
+section#subscription div#col-sub h4,
+section#subscription div#text-info h4{
     font-size: 30px;
     padding-top: 25px;
     margin-bottom: 13px;
@@ -189,13 +191,6 @@ section#subscription div#col-sub .btn-free-trial{
     margin-bottom: 40px;
 }
 
-.btn-free-trial a{
-    padding:10px 30px;
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-}
-
 #buy-now, .fa-check{
     color:#0061ff;
 }
@@ -207,14 +202,94 @@ hr{
 }
 
 section#subscription div#col-sub h5,
-section#subscription div#col-sub li{
+section#subscription div#col-sub li,
+section#subscription div#text-info h5{
     margin-bottom: 30px;
 }
 
-section#subscription div#col-sub h5{
+section#subscription div#col-sub h5,
+section#subscription div#text-info h5{
     font-size: 20px;
 }
 
 section#subscription div#col-sub li{
     list-style: none; 
+}
+
+section#subscription div#text-info{
+    width: 70%;
+}
+
+section#subscription div#btn-info{
+    width: 30%;
+    padding-top: 25px;
+}
+
+section#subscription div#info-col{
+    padding: 30px;
+    height: 230px;
+}
+
+/*!! -- START BUTTON -- !!*/
+
+#btn-nav a, .btn-free-trial a, .btn-contact a, #find-a-partner a{
+    text-decoration: none;
+}
+
+#btn-nav a, .btn-free-trial a, .btn-contact a{
+    color: white;
+    background-color: #0061ff; 
+}
+
+#jumbotron .col-jumbotron .btn-free-trial{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#btn-nav a, #btn-jumbo{
+    padding: 7px 20px;
+}
+
+#btn-jumbo{
+    font-size: 18px;
+}
+
+.btn-free-trial a{
+    padding: 5px 55px;
+}
+
+.btn-contact a{
+    padding: 5px 85px;
+}
+
+#find-a-partner a{
+    color: black;
+    border: 1px solid black;
+    padding: 7px 21px;
+}
+
+/*!! -- END BUTTON -- !!*/
+
+section#partner{
+    padding-top: 150px;
+}
+
+section#partner img#people{
+    width: 52%;
+}
+
+section#partner div#partner-text{
+    width: 42%;
+}
+
+section#partner div#partner-text h4{
+    font-size: 30px;
+    margin-bottom: 25px;
+    padding-top: 50px;
+}
+
+section#partner div#partner-text p{
+    line-height: 30px;
+    margin-bottom: 35px;
+    font-size: 19px;
 }
