@@ -19,6 +19,7 @@ header{
 
 main{
     width: 65%;
+    min-width: 1200px;
     margin: 0 auto;
 }
 
@@ -117,6 +118,7 @@ section#subscription #subscription-radio input{
 
 section#subscription #subscription-radio span{
     margin-right: 20px;
+    font-weight: 600;
 }
 
 #professional-row, #standard-row, #advance-row{
@@ -125,9 +127,9 @@ section#subscription #subscription-radio span{
 
 #professional-row, #standard-row, #advance-row, #info-row{
     height: 40px;
-    border-top:#e0e0e0 1px solid;
-    border-left:#e0e0e0 1px solid; 
-    border-right:#e0e0e0 1px solid;
+    border-top:#e0e0e0 2px solid;
+    border-left:#e0e0e0 2px solid; 
+    border-right:#e0e0e0 2px solid;
 }
 
 section#subscription div#row-sub h6,
@@ -154,7 +156,7 @@ section#subscription div#info-row h6{
 }
 
 #professional-col, #standard-col, #advance-col, #info-col{
-    border: #e0e0e0 1px solid;
+    border: #e0e0e0 2px solid;
 }
 
 #info-col{
@@ -222,12 +224,12 @@ section#subscription div#text-info{
 
 section#subscription div#btn-info{
     width: 30%;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 section#subscription div#info-col{
     padding: 30px;
-    height: 230px;
+    height: 240px;
 }
 
 /*!! -- START BUTTON -- !!*/
@@ -255,7 +257,7 @@ section#subscription div#info-col{
 }
 
 .btn-free-trial a{
-    padding: 5px 55px;
+    padding: 5px 54px;
 }
 
 .btn-contact a{
@@ -272,6 +274,7 @@ section#subscription div#info-col{
 
 section#partner{
     padding-top: 150px;
+    margin-bottom: 150px;
 }
 
 section#partner img#people{
@@ -293,3 +296,36 @@ section#partner div#partner-text p{
     margin-bottom: 35px;
     font-size: 19px;
 }
+
+section#dropbox-business h2{
+    font-size: 43px;
+    margin-bottom: 60px;
+}
+
+section#dropbox-business .row{
+    margin-bottom: 100px;
+}
+
+section#dropbox-business .card-middle{
+    width: 30%;
+    margin:0 5%;
+}
+
+section#dropbox-business .card{
+    width: 30%;
+}
+
+section#dropbox-business img{
+    width: 100%;
+}
+section#dropbox-business div.text h4{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+section#dropbox-business div.text p{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
