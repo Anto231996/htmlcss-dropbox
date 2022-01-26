@@ -41,11 +41,12 @@ main{
     margin: 0 30px;
 }
 
-header div.nav-bar-left ul{
+header div.nav-bar-left ul,
+header div.nav-bar-right ul{
     display: inline;
 }
 
-li{
+header ul li{
     display: inline;
     margin-right: 30px;
 }
@@ -91,13 +92,18 @@ section#jumbotron div .btn-free-trial{
     color: white;
 }
 
-section#jumbotron div.col-jumbotron div#btn-jumbo-blue{
-    margin-bottom: 30px;
+section#jumbotron div.col-jumbotron div#btn-jumbo-blue,
+section#jumbotron div.col-jumbotron div#cancel{
+    margin-bottom: 35px;
 }
 
 .bg-blue{
     background-color: #0061ff;
     padding: 10px 20px;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
 }
 
 #img-jumbo{
@@ -107,7 +113,7 @@ section#jumbotron div.col-jumbotron div#btn-jumbo-blue{
 
 section#subscription h2{
     font-size: 40px;
-    padding-top: 150px;
+    padding-top: 250px;
     margin-bottom: 50px;
 }
 
@@ -150,7 +156,7 @@ section#subscription div#row-sub h6{
 
 #professional-col, #standard-col, #advance-col{
     width: calc((100% / 3) - 34px);
-    height: 800px;
+    height: 1000px;
     border: #e0e0e0 1px solid
 }
 
@@ -158,10 +164,6 @@ section#subscription div#col-sub h4{
     font-size: 30px;
     padding-top: 25px;
     margin-bottom: 13px;
-}
-
-section#subscription div#col-sub span{
-    display: inline-block;
 }
 
 section#subscription div#col-sub .price{
@@ -188,7 +190,7 @@ section#subscription div#col-sub .btn-free-trial{
 }
 
 .btn-free-trial a{
-    padding:10px 40px;
+    padding:10px 30px;
     color: white;
     text-decoration: none;
     font-size: 15px;
@@ -202,4 +204,13 @@ hr{
     border-top: 1px solid #e0e0e0;
     width: 65px;
     margin: 30px 0;
+}
+
+section#subscription div#col-sub h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section#subscription div#col-sub li{
+    margin-bottom: 30px;
 }
