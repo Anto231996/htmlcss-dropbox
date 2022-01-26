@@ -145,7 +145,7 @@ section#subscription div#row-sub h6{
     color: #1a1a1a;
 }
 
-#col-sub .content{
+#col-sub .content-sub{
     width: 80%;
     margin: 0 auto;
 }
@@ -196,7 +196,7 @@ section#subscription div#col-sub .btn-free-trial{
     font-size: 15px;
 }
 
-#buy-now{
+#buy-now, .fa-check{
     color:#0061ff;
 }
 
@@ -206,11 +206,15 @@ hr{
     margin: 30px 0;
 }
 
+section#subscription div#col-sub h5,
+section#subscription div#col-sub li{
+    margin-bottom: 30px;
+}
+
 section#subscription div#col-sub h5{
     font-size: 20px;
-    margin-bottom: 10px;
 }
 
 section#subscription div#col-sub li{
-    margin-bottom: 30px;
+    list-style: none; 
 }
