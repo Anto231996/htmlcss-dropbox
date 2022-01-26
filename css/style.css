@@ -122,7 +122,7 @@ section#subscription #subscription-radio span{
 }
 
 #professional-row, #standard-row, #advance-row{
-    width: calc((100% / 3) - 34px);
+    width: 32%;
 }
 
 #professional-row, #standard-row, #advance-row, #info-row{
@@ -146,11 +146,11 @@ section#subscription div#info-row h6{
 }
 
 #standard-row, #standard-col{
-    margin: 0 51px;
+    margin: 0 2%;
 }
 
 #professional-col, #standard-col, #advance-col{
-    width: calc((100% / 3) - 34px);
+    width: 32%;
     height: 1100px;
     margin-bottom: 50px;
 }
@@ -166,8 +166,11 @@ section#subscription div#info-row h6{
 section#subscription div#col-sub h4,
 section#subscription div#text-info h4{
     font-size: 30px;
-    padding-top: 25px;
     margin-bottom: 13px;
+}
+
+section#subscription div#col-sub h4{
+    padding-top: 25px;
 }
 
 section#subscription div#col-sub .price{
@@ -222,14 +225,18 @@ section#subscription div#text-info{
     width: 70%;
 }
 
+section#subscription div#text-info h4{
+    padding-top: 2px;
+}
+
 section#subscription div#btn-info{
     width: 30%;
-    padding-top: 35px;
+    padding-top: 20px;
 }
 
 section#subscription div#info-col{
     padding: 30px;
-    height: 240px;
+    height: 200px;
 }
 
 /*!! -- START BUTTON -- !!*/
@@ -257,11 +264,11 @@ section#subscription div#info-col{
 }
 
 .btn-free-trial a{
-    padding: 5px 54px;
+    padding: 5px 60px;
 }
 
 .btn-contact a{
-    padding: 5px 85px;
+    padding: 8px 85px;
 }
 
 #find-a-partner a{
@@ -284,11 +291,14 @@ section#partner img#people{
 section#partner div#partner-text{
     width: 42%;
 }
-
 section#partner div#partner-text h4{
+    padding-top: 50px;
+}
+
+section#partner div#partner-text h4,
+section#dropbox-business div.text h4{
     font-size: 30px;
     margin-bottom: 25px;
-    padding-top: 50px;
 }
 
 section#partner div#partner-text p{
@@ -318,14 +328,8 @@ section#dropbox-business .card{
 section#dropbox-business img{
     width: 100%;
 }
-section#dropbox-business div.text h4{
-    font-size: 28px;
-    margin-bottom: 25px;
-}
 
 section#dropbox-business div.text p{
     font-size: 18px;
     line-height: 27px;
 }
-
-
