@@ -199,8 +199,11 @@ section#subscription div#col-sub .btn-free-trial{
 }
 
 hr{
-    border-top: 1px solid #e0e0e0;
     width: 65px;
+}
+
+hr, .hr-full{   
+    border-top: 1px solid #e0e0e0;
     margin: 30px 0;
 }
 
@@ -370,7 +373,6 @@ section#text-companies h2{
 section#client-companies .companies-svg{
     width: 30vw;
     max-width: 30%;
-    background-color: blueviolet;
     height: 61vh;
 }
 
@@ -442,11 +444,9 @@ div.companies-svg div > img{
 }
 
 section#under-client-companies{
-    width: 100vw;
-    max-width: 100%;
-    background-color: #b4d0e7;
     height: 400px;
     position: relative;
+    margin-bottom: 150px;
 }
 
 section#under-client-companies h2{
@@ -462,4 +462,21 @@ section#under-client-companies div.container{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+section#questions h3{
+    font-size: 30px;
+}
+
+.hr-full{
+    width: 100%;
+}
+
+.fa-chevron-down{
+    float: right;
+}
+
+section#questions ul li {
+    display: inline;
+    font-weight: bold;
 }
