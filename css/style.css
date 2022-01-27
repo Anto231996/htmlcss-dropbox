@@ -10,11 +10,17 @@ body{
 }
 
 header{
-    width: 95%;
+    width: 100vw;
     height: 70px;
     line-height: 70px;
     margin: 0 auto;
+    max-width: 100%;
     min-width: 1200px;
+    background-color: white;
+    position: fixed;
+    z-index: 666;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 6px 6px -6px #666;
 }
 
 .container{
@@ -59,9 +65,10 @@ li.btn-nav{
 .wrapper{
     background-color: #b4d0e7;
     width: 100vw;
-    height: 820px;
+    height: 900px;
     min-width: 1500px;
     max-width: 100%;
+    padding-top: 100px;
 }
 
 section#jumbotron{
@@ -100,9 +107,12 @@ section#jumbotron div.col-jumbotron div#cancel{
     width: 67%;
 }
 
+section#subscription{
+    padding-top: 400px;
+}
+
 section#subscription h2{
     font-size: 40px;
-    padding-top: 300px;
     margin-bottom: 50px;
 }
 
@@ -464,6 +474,10 @@ section#under-client-companies div.container{
     transform: translate(-50%, -50%);
 }
 
+section#questions{
+    margin-bottom: 150px;
+}
+
 section#questions h3{
     font-size: 30px;
 }
@@ -479,4 +493,26 @@ section#questions h3{
 section#questions ul li {
     display: inline;
     font-weight: bold;
+}
+
+footer{
+    width: 100vw;
+    /* background-color: black; */
+    height: 550px;
+    max-width: 100%;
+}
+
+footer div#footer-conteiner{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.aling{
+    text-indent: -10px;
+    padding-left: 20px;
+}
+
+div.align{
+    text-indent: -10px;
+    padding-left: 20px;
 }
