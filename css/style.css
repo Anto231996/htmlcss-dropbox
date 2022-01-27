@@ -16,6 +16,7 @@ header{
     margin: 0 auto;
     max-width: 100%;
     min-width: 1200px;
+    font-weight: 600;
     background-color: white;
     position: fixed;
     z-index: 666;
@@ -206,6 +207,7 @@ section#subscription div#col-sub .btn-free-trial{
 
 .buy-now, #discover, .fa-check{
     color:#0061ff;
+    font-weight: 600;
 }
 
 .hr-small{
@@ -294,7 +296,14 @@ section#jumbotron div .btn-free-trial{
 }
 
 .btn-free-trial a{
-    padding: 5px 60px;
+    padding: 10px 60px;
+}
+
+.btn-free-trial a:hover, #btn-nav a:hover, .btn-free-trial a:hover, 
+.btn-contact a:hover, #btn-find-a-partner a:hover, #btn-under-client a:hover {
+    box-shadow: 1px 1px 1px 1px #505050;
+    filter: opacity(50%);
+    transition: 0.3s;
 }
 
 .btn-contact a, #btn-under-client a{
@@ -504,6 +513,10 @@ section#questions h3{
     float: right;
 }
 
+section#questions ul{
+    display: inline;
+}
+
 section#questions ul li {
     display: inline;
     font-weight: bold;
@@ -515,7 +528,7 @@ footer{
     height: 550px;
     max-width: 100%;
     color: white;
-    min-width: 800px;
+    min-width: 1000px;
 }
 
 footer div#footer-conteiner{
@@ -549,4 +562,8 @@ footer span#language-it{
     font-size: 15px;
 }
 
+footer div#footer-conteiner div.contenitore ul li:hover{
+    text-decoration: underline;
+    color: white;
 
+}
