@@ -208,13 +208,17 @@ section#subscription div#col-sub .btn-free-trial{
     color:#0061ff;
 }
 
-hr{
+.hr-small{
     width: 65px;
 }
 
-hr, .hr-full{   
-    border-top: 1px solid #e0e0e0;
+.hr-small, .hr-full, hr#footer{   
+    color: #e0e0e0;
     margin: 30px 0;
+}
+
+hr#footer{
+    width: 131px;
 }
 
 section#subscription div#col-sub h5,
@@ -248,6 +252,16 @@ section#subscription div#btn-info{
 section#subscription div#info-col{
     padding: 30px;
     height: 200px;
+}
+
+.aling{
+    text-indent: -10px;
+    padding-left: 20px;
+}
+
+div.align{
+    text-indent: -10px;
+    padding-left: 20px;
 }
 
 /*!! -- START BUTTON STYLE-- !!*/
@@ -497,22 +511,42 @@ section#questions ul li {
 
 footer{
     width: 100vw;
-    /* background-color: black; */
+    background-color: black;
     height: 550px;
     max-width: 100%;
+    color: white;
+    min-width: 800px;
 }
 
 footer div#footer-conteiner{
     width: 80%;
     margin: 0 auto;
+    padding-top: 80px;
 }
 
-.aling{
-    text-indent: -10px;
-    padding-left: 20px;
+footer div#footer-conteiner div.contenitore h6{
+    font-size: 23px;
+    margin-bottom: 23px;
 }
 
-div.align{
-    text-indent: -10px;
-    padding-left: 20px;
+footer div#footer-conteiner div.contenitore ul{
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 15px;
 }
+
+.contenitore{
+    height: 350px;
+    width: calc(100% / 5);
+    float: left;
+}
+
+footer div#language{
+    color: #585858;
+}
+
+footer span#language-it{
+    font-size: 15px;
+}
+
+
