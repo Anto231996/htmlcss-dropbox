@@ -282,7 +282,6 @@ section#jumbotron div .btn-free-trial{
 
 #btn-under-client{
     padding-top: 20px;
-    margin-right: -100px;
 }
 
 #btn-under-client a{
@@ -455,11 +454,10 @@ section#under-client-companies h2{
 }
 
 section#under-client-companies div#col-left-under-client{
-    width: 60%;
-    margin-left: -100px
+    width: 50%;
 }
 
-section#under-client-companies div#wrapper-under-client-companies{
+section#under-client-companies div.container{
     position: absolute;
     top: 50%;
     left: 50%;
