@@ -335,8 +335,12 @@ section#dropbox-business img{
 }
 
 section#dropbox-business div.text p{
-    font-size: 18px;
     line-height: 27px;
+}
+
+section#dropbox-business div.text p,
+section#client-companies .text-companies #wrapper-text-companies p{
+    font-size: 18px;
 }
 
 section#text-companies{
@@ -348,9 +352,76 @@ section#text-companies h2{
     margin-bottom: 25px;  
 }
 
-section#client-companies{
-    background-color: blue;
-    width: 100vw;
-    height: 50px;
-    max-width: 100%;
+section#client-companies .companies-svg{
+    width: 30vw;
+    max-width: 30%;
+    background-color: blueviolet;
+    height: 61vh;
+}
+
+section#client-companies .text-companies{
+    width: 40vw;
+    max-width: 40%;
+    background-color: #f5f5f5;
+    height: 61vh;
+}
+
+section#client-companies .text-companies div#wrapper-text-companies{
+    padding: 62px;
+}
+
+
+section#client-companies .text-companies img#img-designit{
+    width: 25%;
+}
+
+section#client-companies .text-companies #wrapper-text-companies p{
+    margin: 70px 0;
+}
+
+.companies-svg > div{
+    width: 50%;
+    height: 50%;
+}
+
+div.companies-svg div > img{
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+    }
+
+#designit{
+    background-color: #a2d39b;
+    border: #d0e9cd solid 13px;
+}
+
+#arizona-state-university{
+    background-color: #61082b;
+}
+
+#university-of-florida{
+    background-color: #0093ce;
+}
+
+#topps{
+    background-color: #ff1c1c;
+}
+
+#world-bicycle-relief{
+    background-color: #d5001f;
+}
+
+#hearst-corp{
+    background-color: #b4d0e7;
+}
+
+#lonely-planet{
+    background-color: #0d2481;
+}
+
+#clear-channel{
+    background-color: #ffd830;
 }
